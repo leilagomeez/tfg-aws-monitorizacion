@@ -3,7 +3,7 @@
 Herramienta de monitorización y análisis de arquitecturas cloud basadas en microservicios en Amazon Web Services, desarrollada como Trabajo de Fin de Grado en la ETSI Informáticos de la Universidad Politécnica de Madrid.
 
 **Autora:** Leila Gómez Vallejo  
-**Grado:** Ingeniería Informática — UPM
+**Grado:** Ingeniería Informática - UPM
 
 ---
 
