@@ -3,7 +3,6 @@
 Herramienta de monitorización y análisis de arquitecturas cloud basadas en microservicios en Amazon Web Services, desarrollada como Trabajo de Fin de Grado en la ETSI Informáticos de la Universidad Politécnica de Madrid.
 
 **Autora:** Leila Gómez Vallejo  
-**Tutora:** Sonia Frutos Cid  
 **Grado:** Ingeniería Informática — UPM
 
 ---
@@ -57,17 +56,15 @@ pip install -r requirements.txt
 
 ## Uso
 
-1. Configura tus credenciales de AWS. Si usas AWS Academy Learner Lab, actualiza el fichero `src/aws_session.py` con las credenciales de sesión proporcionadas por el entorno.
-
-2. Inicia Jupyter Notebook:
+1. Inicia Jupyter Notebook:
 
 ```bash
 jupyter notebook
 ```
 
-3. Abre `notebooks/dashboard.ipynb` y ejecuta todas las celdas en orden (Kernel → Restart & Run All).
+2. Abre `notebooks/dashboard.ipynb` y ejecuta todas las celdas en orden (Kernel → Restart & Run All).
 
-4. Interactúa con el dashboard: selecciona el servicio y la pestaña de análisis desde los controles de la interfaz.
+3. Interactúa con el dashboard: selecciona el servicio y la pestaña de análisis desde los controles de la interfaz.
 
 Los informes se guardan automáticamente en la carpeta `outputs/` al pulsar el botón de exportación.
 
@@ -122,8 +119,3 @@ tfg-aws-monitorizacion/
 
 ---
 
-## Notas
-
-- La herramienta está diseñada para ejecutarse en AWS Academy Learner Lab pero es compatible con cualquier cuenta de AWS con los permisos adecuados.
-- Las credenciales de AWS nunca deben incluirse en el código. Usa siempre variables de entorno o el fichero de credenciales estándar de AWS.
-- La carpeta `outputs/` no se incluye en el repositorio. Los informes se generan localmente al ejecutar el dashboard.
