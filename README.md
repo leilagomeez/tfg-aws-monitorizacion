@@ -114,8 +114,8 @@ tfg-aws-monitorizacion/
 - **Jupyter Notebook** - Entorno de desarrollo interactivo
 - **ipywidgets** - Interfaz gráfica del dashboard
 - **Plotly** - Visualizaciones interactivas
-- **Mermaid** — Diagramas de arquitectura
-- **pandas** — Procesamiento de datos
+- **Mermaid** - Diagramas de arquitectura
+- **pandas** - Procesamiento de datos
 
 ---
 
